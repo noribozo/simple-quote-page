@@ -4,6 +4,8 @@
 
 .container {
   position: relative;
+    width: 100%;
+    height: auto;
   text-align: justify;
   color: black;
     font-style:light;
@@ -19,7 +21,32 @@
 }
 quote{
     font-size:0.5rem;
+    text-transform: lowercase;
 }
+.navbar{
+  position: absolute;
+  margin-top: -65%
+
+}
+
+a{
+  
+  text-decoration: none;
+  color: black;
+  float: left;
+  border: 1px solid #ADD8E6;
+  padding: 1px;
+}
+
+a:hover{
+  color: blue;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
 
 @media (max-width: 600px){
     font-size: 1rem;
