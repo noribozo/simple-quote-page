@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  text-align: justify;
+  color: black;
+    font-style:light;
+    font-size: 1rem;
+    text-transform: uppercase;
+    }
+
+.cover{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+quote{
+    font-size:0.5rem;
+}
+@media (min-width: 780px){
+  font-size: 1rem;
+  color: black;
+}
+
+@media( min-width: 1025px){
+  font-size: 2rem;
+  color: red;
+}
