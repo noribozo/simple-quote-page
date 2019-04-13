@@ -1,52 +1,64 @@
-*{
-    box-sizing: border-box;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
 }
 
-.container {
-  position: relative;
-    width: 100%;
-    height: auto;
-  text-align: justify;
-  color: black;
-    font-style:light;
-    font-size: 1rem;
-    text-transform: uppercase;
-    }
-
-.cover{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+body{
+  width: 100%;
+  height: 100vh;
+  background: url("https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg") no-repeat center;
+  background-size: cover;
+  color: #333;
 }
-quote{
-    font-size:0.5rem;
-    text-transform: lowercase;
+
+.wrapper{
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.quote{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+}
+
+.author{
+  font-family: 'Crimson Text', serif;
+}
+
 }
 .navbar{
   position: absolute;
-  margin-top: -65%
+  margin-top: -35%
 
 }
 
+
+
+ul{
+  list-style-type: none;
+    display: flex;
+}
+li{
+flex-direction: column;
+}
+
 a{
-  
   text-decoration: none;
   color: black;
   float: left;
   border: 1px solid #ADD8E6;
+  background-color: white;
   padding: 1px;
 }
 
 a:hover{
   color: blue;
 }
-
-ul{
-  list-style-type: none;
-}
-
-
 
 @media (max-width: 600px){
     font-size: 1rem;
@@ -63,7 +75,3 @@ ul{
     text-align: center;
 }
 
-img{
-    width: 100%;
-    height: auto;
-}
