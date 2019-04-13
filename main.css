@@ -30,7 +30,6 @@ body{
   font-family: 'Crimson Text', serif;
 }
 
-}
 .navbar{
   position: absolute;
   margin-top: -35%
@@ -57,21 +56,19 @@ a{
 }
 
 a:hover{
-  color: blue;
+  color: #00ff00;
 }
 
 @media (max-width: 600px){
-    font-size: 1rem;
-    color: blue;
+    .quote{font-size: 1rem;
+    color: #00416A;
 }
-@media (min-width: 780px){
-  font-size: 3rem;
-  color: red;
+}
+@media (min-width: 768px){
+  .quote{
+      font-size: 3rem;
+       color: #ee0000;
+}
 }
 
-@media  (min-width: 1025px){
-  font-size: 3rem;
-  color: red;
-    text-align: center;
-}
 
